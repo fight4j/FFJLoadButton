@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'FFJLoadButton_Example', :exclusive => true do
+  pod "FFJLoadButton", :path => "../"
+end
+
+target 'FFJLoadButton_Tests', :exclusive => true do
+  pod "FFJLoadButton", :path => "../"
+
+  
+end
