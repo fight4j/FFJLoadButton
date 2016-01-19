@@ -1,0 +1,6 @@
+framework module Pods_FFJLoadButton_Example {
+  umbrella header "Pods-FFJLoadButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

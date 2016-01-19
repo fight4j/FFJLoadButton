@@ -1,0 +1,14 @@
+PODS:
+  - FFJLoadButton (0.1.0)
+
+DEPENDENCIES:
+  - FFJLoadButton (from `../`)
+
+EXTERNAL SOURCES:
+  FFJLoadButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FFJLoadButton: 270eebad70620b17c7eafb6a7319f00aac2fcff6
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module FFJLoadButton {
+  umbrella header "FFJLoadButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

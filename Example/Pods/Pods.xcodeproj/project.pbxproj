@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FE9D5A5BB93FBA3214D6825D45CA8D3 /* FFJLoadButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2DF17138FCBDDEAD1D7D8C689193A6 /* FFJLoadButton-dummy.m */; };
+		78762EC9BA81BB61E834BBEB98B7F6A7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D138E39F160845EB0FB8E0F819B53468 /* ReplaceMe.swift */; };
+		843F214DE4726F1F81006EC51F5C3BEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8AEAFCE87D92483E74C49245CEF05FE5 /* Pods-FFJLoadButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA48A0C2C1C261D0FDF3380999A6947 /* Pods-FFJLoadButton_Example-dummy.m */; };
+		8BCD384A692388A4ECF3F6F0689AF737 /* Pods-FFJLoadButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9ABBD8A1218E5AD50DD7C26D0F17CC2 /* Pods-FFJLoadButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E1A74F9CABA60E2871207F01E33EB3C /* Pods-FFJLoadButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BA2C26881EA7C880C06E406F4473B4 /* Pods-FFJLoadButton_Tests-dummy.m */; };
+		AC2C10361DE001637C1B130D74DF517E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BFC9ECC05CBBCF32A8E742F2803FD548 /* Pods-FFJLoadButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C781639B68EC5901FFE66B380342B2A5 /* Pods-FFJLoadButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC2EAC22F485850E7E150A46413A0C3D /* FFJLoadButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D32F48DB179779FF5C963522DF1751B1 /* FFJLoadButton.bundle */; };
+		DA15A1A3DCB3E8CEB17525DA48B29E38 /* FFJLoadButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E9A0B97E454CDAF508F1CF50E24A4C7 /* FFJLoadButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECA15D46F398E21EA015D413E3AFC7A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CE499EB4E2DC9A7EDE60FD4B8EA2816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E42140ED8C4845C284184BBC9E0C75F;
+			remoteInfo = FFJLoadButton;
+		};
+		41840F991627394A542856178C2691F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E42140ED8C4845C284184BBC9E0C75F;
+			remoteInfo = FFJLoadButton;
+		};
+		6AB4A18357C32DD29FA6BCE6B3EBD7BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE785B60FCB6677D2213BEBEE1615C6;
+			remoteInfo = "FFJLoadButton-FFJLoadButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F6E4B66234A99DC3E620239DFE9AAD /* Pods-FFJLoadButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFJLoadButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0AA48A0C2C1C261D0FDF3380999A6947 /* Pods-FFJLoadButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFJLoadButton_Example-dummy.m"; sourceTree = "<group>"; };
+		0EE2734D2A1FA2D9579E1CC0D652D34C /* Pods-FFJLoadButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFJLoadButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B18FF7ABD7CBFFD24A30808C5C33C1C /* Pods-FFJLoadButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFJLoadButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1E9A0B97E454CDAF508F1CF50E24A4C7 /* FFJLoadButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFJLoadButton-umbrella.h"; sourceTree = "<group>"; };
+		357C3B1069D9492D5BD91758839D6758 /* Pods-FFJLoadButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFJLoadButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		38B60ED93E28E99507568F3E1F69835F /* Pods_FFJLoadButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFJLoadButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE56BC5884A0DCD9BFA03E95D226D6B /* Pods-FFJLoadButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFJLoadButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43F6F1E6C5871F48C9E91A41A2C9774A /* Pods-FFJLoadButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFJLoadButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		45F31758C6A8CDD7C5CE977E5DF7BE54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD355DEC92707E89F939919BD23B174 /* FFJLoadButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFJLoadButton-prefix.pch"; sourceTree = "<group>"; };
+		5373E978A1779F80DE5627C8D6A243D4 /* Pods-FFJLoadButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FFJLoadButton_Tests.modulemap"; sourceTree = "<group>"; };
+		60E3EFB94CB623411B6CA591C952B517 /* Pods-FFJLoadButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFJLoadButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		772B21D685314E59EE946D4F01687A22 /* Pods-FFJLoadButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFJLoadButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79E9A9DB120A3E87097E390027201169 /* Pods_FFJLoadButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFJLoadButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A21C1BCAFA903E75888311236AF7789 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9183EB35D7C5DBC265E35B9E25828E /* Pods-FFJLoadButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFJLoadButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		911C1B875B8A8B68D957CE15AD94655A /* FFJLoadButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFJLoadButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BA2C26881EA7C880C06E406F4473B4 /* Pods-FFJLoadButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFJLoadButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		969A0B47AFB555E0159569640C477345 /* Pods-FFJLoadButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FFJLoadButton_Example.modulemap"; sourceTree = "<group>"; };
+		9BC8DD3C852638B6E0DD519F8C5DD208 /* FFJLoadButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FFJLoadButton.modulemap; sourceTree = "<group>"; };
+		A032F61C216A707F231EA7252A317443 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C781639B68EC5901FFE66B380342B2A5 /* Pods-FFJLoadButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFJLoadButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		D138E39F160845EB0FB8E0F819B53468 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		D307DBB3ABC9AA3088C23F980F897148 /* FFJLoadButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFJLoadButton.xcconfig; sourceTree = "<group>"; };
+		D32F48DB179779FF5C963522DF1751B1 /* FFJLoadButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFJLoadButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8CBB6567B8FD24264D9D9DC270D3D64 /* Pods-FFJLoadButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFJLoadButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		D9ABBD8A1218E5AD50DD7C26D0F17CC2 /* Pods-FFJLoadButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFJLoadButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E17AF2F8A170B3673F2D4FAC28127318 /* Pods-FFJLoadButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFJLoadButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ED1B9BA981F6509CB999B09A720325F1 /* Pods-FFJLoadButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFJLoadButton_Example-resources.sh"; sourceTree = "<group>"; };
+		FD2DF17138FCBDDEAD1D7D8C689193A6 /* FFJLoadButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFJLoadButton-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4809E98D08D83AB9840BAE32AD12C7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2C10361DE001637C1B130D74DF517E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5F79B0DC3E75E939C754B35DA1F854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA15D46F398E21EA015D413E3AFC7A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52DDB0368B382156721F0FDFDE9410F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1F87321B7C5ED9A2E3614CFD9BE238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843F214DE4726F1F81006EC51F5C3BEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E9508C9B42A044041F17EF7601464F7 /* Pods-FFJLoadButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A032F61C216A707F231EA7252A317443 /* Info.plist */,
+				969A0B47AFB555E0159569640C477345 /* Pods-FFJLoadButton_Example.modulemap */,
+				0EE2734D2A1FA2D9579E1CC0D652D34C /* Pods-FFJLoadButton_Example-acknowledgements.markdown */,
+				3DE56BC5884A0DCD9BFA03E95D226D6B /* Pods-FFJLoadButton_Example-acknowledgements.plist */,
+				0AA48A0C2C1C261D0FDF3380999A6947 /* Pods-FFJLoadButton_Example-dummy.m */,
+				357C3B1069D9492D5BD91758839D6758 /* Pods-FFJLoadButton_Example-frameworks.sh */,
+				ED1B9BA981F6509CB999B09A720325F1 /* Pods-FFJLoadButton_Example-resources.sh */,
+				C781639B68EC5901FFE66B380342B2A5 /* Pods-FFJLoadButton_Example-umbrella.h */,
+				E17AF2F8A170B3673F2D4FAC28127318 /* Pods-FFJLoadButton_Example.debug.xcconfig */,
+				43F6F1E6C5871F48C9E91A41A2C9774A /* Pods-FFJLoadButton_Example.release.xcconfig */,
+			);
+			name = "Pods-FFJLoadButton_Example";
+			path = "Target Support Files/Pods-FFJLoadButton_Example";
+			sourceTree = "<group>";
+		};
+		5EF6C05008FEA450A0A4921E40AC85F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BC8DD3C852638B6E0DD519F8C5DD208 /* FFJLoadButton.modulemap */,
+				D307DBB3ABC9AA3088C23F980F897148 /* FFJLoadButton.xcconfig */,
+				FD2DF17138FCBDDEAD1D7D8C689193A6 /* FFJLoadButton-dummy.m */,
+				4DD355DEC92707E89F939919BD23B174 /* FFJLoadButton-prefix.pch */,
+				1E9A0B97E454CDAF508F1CF50E24A4C7 /* FFJLoadButton-umbrella.h */,
+				7A21C1BCAFA903E75888311236AF7789 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FFJLoadButton";
+			sourceTree = "<group>";
+		};
+		68DD747F0F220BBD8481D2C49AB709AE /* Pods-FFJLoadButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				45F31758C6A8CDD7C5CE977E5DF7BE54 /* Info.plist */,
+				5373E978A1779F80DE5627C8D6A243D4 /* Pods-FFJLoadButton_Tests.modulemap */,
+				772B21D685314E59EE946D4F01687A22 /* Pods-FFJLoadButton_Tests-acknowledgements.markdown */,
+				60E3EFB94CB623411B6CA591C952B517 /* Pods-FFJLoadButton_Tests-acknowledgements.plist */,
+				92BA2C26881EA7C880C06E406F4473B4 /* Pods-FFJLoadButton_Tests-dummy.m */,
+				8B9183EB35D7C5DBC265E35B9E25828E /* Pods-FFJLoadButton_Tests-frameworks.sh */,
+				D8CBB6567B8FD24264D9D9DC270D3D64 /* Pods-FFJLoadButton_Tests-resources.sh */,
+				D9ABBD8A1218E5AD50DD7C26D0F17CC2 /* Pods-FFJLoadButton_Tests-umbrella.h */,
+				03F6E4B66234A99DC3E620239DFE9AAD /* Pods-FFJLoadButton_Tests.debug.xcconfig */,
+				1B18FF7ABD7CBFFD24A30808C5C33C1C /* Pods-FFJLoadButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-FFJLoadButton_Tests";
+			path = "Target Support Files/Pods-FFJLoadButton_Tests";
+			sourceTree = "<group>";
+		};
+		77F195A24D36DC7D3999CBBB3FF69FD4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F69A9D3292CCD8FC70769249ACD7A928 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7C2661A6D8DA5CCA201C02E44AB92938 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E9508C9B42A044041F17EF7601464F7 /* Pods-FFJLoadButton_Example */,
+				68DD747F0F220BBD8481D2C49AB709AE /* Pods-FFJLoadButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				E28F8AF290C2B32AFB15D1B4284EBF37 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				83E74BB1FE833FF492BD42A527A98693 /* Products */,
+				7C2661A6D8DA5CCA201C02E44AB92938 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83E74BB1FE833FF492BD42A527A98693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32F48DB179779FF5C963522DF1751B1 /* FFJLoadButton.bundle */,
+				911C1B875B8A8B68D957CE15AD94655A /* FFJLoadButton.framework */,
+				79E9A9DB120A3E87097E390027201169 /* Pods_FFJLoadButton_Example.framework */,
+				38B60ED93E28E99507568F3E1F69835F /* Pods_FFJLoadButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DBFB2ECEB98225736390D7CC4B3A98B7 /* FFJLoadButton */ = {
+			isa = PBXGroup;
+			children = (
+				77F195A24D36DC7D3999CBBB3FF69FD4 /* Pod */,
+				5EF6C05008FEA450A0A4921E40AC85F9 /* Support Files */,
+			);
+			name = FFJLoadButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E28F8AF290C2B32AFB15D1B4284EBF37 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBFB2ECEB98225736390D7CC4B3A98B7 /* FFJLoadButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F69A9D3292CCD8FC70769249ACD7A928 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D138E39F160845EB0FB8E0F819B53468 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B070ECF959169F0C9F55C59DCA38DAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCD384A692388A4ECF3F6F0689AF737 /* Pods-FFJLoadButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F34BA8088FBCAB510B2CDED580C1741 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15A1A3DCB3E8CEB17525DA48B29E38 /* FFJLoadButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB8E7BE53C42A898A851253F825278 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC9ECC05CBBCF32A8E742F2803FD548 /* Pods-FFJLoadButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E42140ED8C4845C284184BBC9E0C75F /* FFJLoadButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914C1BD0ACA1616050CBEEF930159A52 /* Build configuration list for PBXNativeTarget "FFJLoadButton" */;
+			buildPhases = (
+				04003F5F4D6589B926E375F05F4631A9 /* Sources */,
+				BF1F87321B7C5ED9A2E3614CFD9BE238 /* Frameworks */,
+				A8E6893AD3F5EE08C3D305D6384FE3BF /* Resources */,
+				6F34BA8088FBCAB510B2CDED580C1741 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5365C6C1EF668900F39C6354DB8FF148 /* PBXTargetDependency */,
+			);
+			name = FFJLoadButton;
+			productName = FFJLoadButton;
+			productReference = 911C1B875B8A8B68D957CE15AD94655A /* FFJLoadButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FE785B60FCB6677D2213BEBEE1615C6 /* FFJLoadButton-FFJLoadButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29315CA65A66DBD19E2E7C6FFE9096BE /* Build configuration list for PBXNativeTarget "FFJLoadButton-FFJLoadButton" */;
+			buildPhases = (
+				156EA33A777E292445E3250054859E65 /* Sources */,
+				A52DDB0368B382156721F0FDFDE9410F /* Frameworks */,
+				8F23EAD72E15B66FA5090D25F744FBC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FFJLoadButton-FFJLoadButton";
+			productName = "FFJLoadButton-FFJLoadButton";
+			productReference = D32F48DB179779FF5C963522DF1751B1 /* FFJLoadButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C3EAFEB0E936257912FAE98E7B09FFC6 /* Pods-FFJLoadButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA92116889EF81593CD145BBC77B095 /* Build configuration list for PBXNativeTarget "Pods-FFJLoadButton_Tests" */;
+			buildPhases = (
+				A5FA2A81DDE7E9E2E19A8815AABEDB44 /* Sources */,
+				4809E98D08D83AB9840BAE32AD12C7BE /* Frameworks */,
+				1B070ECF959169F0C9F55C59DCA38DAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD62846B4EE9530E138BEB168595C82D /* PBXTargetDependency */,
+			);
+			name = "Pods-FFJLoadButton_Tests";
+			productName = "Pods-FFJLoadButton_Tests";
+			productReference = 38B60ED93E28E99507568F3E1F69835F /* Pods_FFJLoadButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2A88CC1F4E77F374D9AB279C47E6CCF /* Pods-FFJLoadButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FB483749B4B80B88DEFAE4C82C82F3 /* Build configuration list for PBXNativeTarget "Pods-FFJLoadButton_Example" */;
+			buildPhases = (
+				9E1B95FC3AD1EA5F509C22EA14EC53C9 /* Sources */,
+				4A5F79B0DC3E75E939C754B35DA1F854 /* Frameworks */,
+				CFDB8E7BE53C42A898A851253F825278 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8C65013B373D05FE727D3ACE994E12B /* PBXTargetDependency */,
+			);
+			name = "Pods-FFJLoadButton_Example";
+			productName = "Pods-FFJLoadButton_Example";
+			productReference = 79E9A9DB120A3E87097E390027201169 /* Pods_FFJLoadButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 83E74BB1FE833FF492BD42A527A98693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E42140ED8C4845C284184BBC9E0C75F /* FFJLoadButton */,
+				6FE785B60FCB6677D2213BEBEE1615C6 /* FFJLoadButton-FFJLoadButton */,
+				D2A88CC1F4E77F374D9AB279C47E6CCF /* Pods-FFJLoadButton_Example */,
+				C3EAFEB0E936257912FAE98E7B09FFC6 /* Pods-FFJLoadButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F23EAD72E15B66FA5090D25F744FBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8E6893AD3F5EE08C3D305D6384FE3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2EAC22F485850E7E150A46413A0C3D /* FFJLoadButton.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04003F5F4D6589B926E375F05F4631A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE9D5A5BB93FBA3214D6825D45CA8D3 /* FFJLoadButton-dummy.m in Sources */,
+				78762EC9BA81BB61E834BBEB98B7F6A7 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		156EA33A777E292445E3250054859E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1B95FC3AD1EA5F509C22EA14EC53C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEAFCE87D92483E74C49245CEF05FE5 /* Pods-FFJLoadButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FA2A81DDE7E9E2E19A8815AABEDB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1A74F9CABA60E2871207F01E33EB3C /* Pods-FFJLoadButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5365C6C1EF668900F39C6354DB8FF148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FFJLoadButton-FFJLoadButton";
+			target = 6FE785B60FCB6677D2213BEBEE1615C6 /* FFJLoadButton-FFJLoadButton */;
+			targetProxy = 6AB4A18357C32DD29FA6BCE6B3EBD7BA /* PBXContainerItemProxy */;
+		};
+		A8C65013B373D05FE727D3ACE994E12B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFJLoadButton;
+			target = 0E42140ED8C4845C284184BBC9E0C75F /* FFJLoadButton */;
+			targetProxy = 2CE499EB4E2DC9A7EDE60FD4B8EA2816 /* PBXContainerItemProxy */;
+		};
+		AD62846B4EE9530E138BEB168595C82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFJLoadButton;
+			target = 0E42140ED8C4845C284184BBC9E0C75F /* FFJLoadButton */;
+			targetProxy = 41840F991627394A542856178C2691F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DB5374B1A2DE06065013682132B7742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D307DBB3ABC9AA3088C23F980F897148 /* FFJLoadButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FFJLoadButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4663875A551C883CB3651C4586C5B1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D307DBB3ABC9AA3088C23F980F897148 /* FFJLoadButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FFJLoadButton/FFJLoadButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFJLoadButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFJLoadButton/FFJLoadButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FFJLoadButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		471A38DA56231EBF4284BF7DD2D6AD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D307DBB3ABC9AA3088C23F980F897148 /* FFJLoadButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FFJLoadButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7E54A138099EE7DE0E70EC225203452F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F6F1E6C5871F48C9E91A41A2C9774A /* Pods-FFJLoadButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FFJLoadButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFJLoadButton_Example/Pods-FFJLoadButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FFJLoadButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA5DB7BBA714C08AD9F7E8253A710EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B18FF7ABD7CBFFD24A30808C5C33C1C /* Pods-FFJLoadButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FFJLoadButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFJLoadButton_Tests/Pods-FFJLoadButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FFJLoadButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7729A6848380F05206A1ABB43E4C777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F6E4B66234A99DC3E620239DFE9AAD /* Pods-FFJLoadButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FFJLoadButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFJLoadButton_Tests/Pods-FFJLoadButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FFJLoadButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED8A51EEF0EED4CB495AF63520232F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17AF2F8A170B3673F2D4FAC28127318 /* Pods-FFJLoadButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FFJLoadButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFJLoadButton_Example/Pods-FFJLoadButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FFJLoadButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD8DAE00198E8B95F89292A918266A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D307DBB3ABC9AA3088C23F980F897148 /* FFJLoadButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FFJLoadButton/FFJLoadButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFJLoadButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFJLoadButton/FFJLoadButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FFJLoadButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29315CA65A66DBD19E2E7C6FFE9096BE /* Build configuration list for PBXNativeTarget "FFJLoadButton-FFJLoadButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471A38DA56231EBF4284BF7DD2D6AD16 /* Debug */,
+				0DB5374B1A2DE06065013682132B7742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914C1BD0ACA1616050CBEEF930159A52 /* Build configuration list for PBXNativeTarget "FFJLoadButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4663875A551C883CB3651C4586C5B1F1 /* Debug */,
+				FD8DAE00198E8B95F89292A918266A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FB483749B4B80B88DEFAE4C82C82F3 /* Build configuration list for PBXNativeTarget "Pods-FFJLoadButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8A51EEF0EED4CB495AF63520232F11 /* Debug */,
+				7E54A138099EE7DE0E70EC225203452F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA92116889EF81593CD145BBC77B095 /* Build configuration list for PBXNativeTarget "Pods-FFJLoadButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7729A6848380F05206A1ABB43E4C777 /* Debug */,
+				BA5DB7BBA714C08AD9F7E8253A710EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
