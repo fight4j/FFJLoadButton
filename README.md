@@ -5,16 +5,22 @@
 [![License](https://img.shields.io/cocoapods/l/FFJLoadButton.svg?style=flat)](http://cocoapods.org/pods/FFJLoadButton)
 [![Platform](https://img.shields.io/cocoapods/p/FFJLoadButton.svg?style=flat)](http://cocoapods.org/pods/FFJLoadButton)
 
-FFJloadButton is a simple subclass of UIButton written in Swift, which provides animations for loading.
+FFJLoadButton is a simple subclass of UIButton written in Swift, which provides animations for loading.
+
+Examples
+![Succeed Example](Resources/succeed.gif) 
+![Failed Example](Resources/failed.gif)
 
 ## Usage
 
-FFJloadButton mainly offers 2 methods:
+FFJLoadButton mainly offers 2 methods:
+
 ```Swift
 startLoad()
 endLoad(_:)
 ```
 Example:
+
 ```Swift
 self.loadButton.startLoad()
 
