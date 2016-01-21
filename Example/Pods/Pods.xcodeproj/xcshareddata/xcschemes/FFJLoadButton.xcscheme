@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '600DA7B88662F3381E023854'
+               BlueprintIdentifier = '4116683F5BDD87A679C58F38'
                BlueprintName = 'FFJLoadButton'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'FFJLoadButton.framework'>

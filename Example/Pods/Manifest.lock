@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FFJLoadButton: 270eebad70620b17c7eafb6a7319f00aac2fcff6
+  FFJLoadButton: 53cc592d4433c359cb072bd02e5f6c0ff04d556c
 
 COCOAPODS: 0.39.0

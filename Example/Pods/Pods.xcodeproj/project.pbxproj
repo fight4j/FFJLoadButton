@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FE9D5A5BB93FBA3214D6825D45CA8D3 /* FFJLoadButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2DF17138FCBDDEAD1D7D8C689193A6 /* FFJLoadButton-dummy.m */; };
-		78762EC9BA81BB61E834BBEB98B7F6A7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D138E39F160845EB0FB8E0F819B53468 /* ReplaceMe.swift */; };
 		843F214DE4726F1F81006EC51F5C3BEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		8AEAFCE87D92483E74C49245CEF05FE5 /* Pods-FFJLoadButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA48A0C2C1C261D0FDF3380999A6947 /* Pods-FFJLoadButton_Example-dummy.m */; };
 		8BCD384A692388A4ECF3F6F0689AF737 /* Pods-FFJLoadButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9ABBD8A1218E5AD50DD7C26D0F17CC2 /* Pods-FFJLoadButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E1A74F9CABA60E2871207F01E33EB3C /* Pods-FFJLoadButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BA2C26881EA7C880C06E406F4473B4 /* Pods-FFJLoadButton_Tests-dummy.m */; };
 		AC2C10361DE001637C1B130D74DF517E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B7FED60D0404B5839DDCA6B23AE9915A /* FFJLoadButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2DF17138FCBDDEAD1D7D8C689193A6 /* FFJLoadButton-dummy.m */; };
 		BFC9ECC05CBBCF32A8E742F2803FD548 /* Pods-FFJLoadButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C781639B68EC5901FFE66B380342B2A5 /* Pods-FFJLoadButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC2EAC22F485850E7E150A46413A0C3D /* FFJLoadButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D32F48DB179779FF5C963522DF1751B1 /* FFJLoadButton.bundle */; };
+		D8D3AF0C6B1D046FC130AD733749B682 /* FFJLoadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F7493CDD10AB137605919D3B3129E9 /* FFJLoadButton.swift */; };
 		DA15A1A3DCB3E8CEB17525DA48B29E38 /* FFJLoadButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E9A0B97E454CDAF508F1CF50E24A4C7 /* FFJLoadButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECA15D46F398E21EA015D413E3AFC7A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -70,7 +70,7 @@
 		A032F61C216A707F231EA7252A317443 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C781639B68EC5901FFE66B380342B2A5 /* Pods-FFJLoadButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFJLoadButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		D138E39F160845EB0FB8E0F819B53468 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		C9F7493CDD10AB137605919D3B3129E9 /* FFJLoadButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FFJLoadButton.swift; sourceTree = "<group>"; };
 		D307DBB3ABC9AA3088C23F980F897148 /* FFJLoadButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFJLoadButton.xcconfig; sourceTree = "<group>"; };
 		D32F48DB179779FF5C963522DF1751B1 /* FFJLoadButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFJLoadButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CBB6567B8FD24264D9D9DC270D3D64 /* Pods-FFJLoadButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFJLoadButton_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -168,7 +168,7 @@
 		77F195A24D36DC7D3999CBBB3FF69FD4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F69A9D3292CCD8FC70769249ACD7A928 /* Classes */,
+				C78B41E99F937C06FF0AD19ED6AB3882 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -220,6 +220,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C78B41E99F937C06FF0AD19ED6AB3882 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9F7493CDD10AB137605919D3B3129E9 /* FFJLoadButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		DBFB2ECEB98225736390D7CC4B3A98B7 /* FFJLoadButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,14 +244,6 @@
 				DBFB2ECEB98225736390D7CC4B3A98B7 /* FFJLoadButton */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F69A9D3292CCD8FC70769249ACD7A928 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D138E39F160845EB0FB8E0F819B53468 /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 914C1BD0ACA1616050CBEEF930159A52 /* Build configuration list for PBXNativeTarget "FFJLoadButton" */;
 			buildPhases = (
-				04003F5F4D6589B926E375F05F4631A9 /* Sources */,
+				EE647CA1943DFB8209AE3FBB7C635570 /* Sources */,
 				BF1F87321B7C5ED9A2E3614CFD9BE238 /* Frameworks */,
 				A8E6893AD3F5EE08C3D305D6384FE3BF /* Resources */,
 				6F34BA8088FBCAB510B2CDED580C1741 /* Headers */,
@@ -396,15 +396,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04003F5F4D6589B926E375F05F4631A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FE9D5A5BB93FBA3214D6825D45CA8D3 /* FFJLoadButton-dummy.m in Sources */,
-				78762EC9BA81BB61E834BBEB98B7F6A7 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		156EA33A777E292445E3250054859E65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,6 +416,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E1A74F9CABA60E2871207F01E33EB3C /* Pods-FFJLoadButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE647CA1943DFB8209AE3FBB7C635570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FED60D0404B5839DDCA6B23AE9915A /* FFJLoadButton-dummy.m in Sources */,
+				D8D3AF0C6B1D046FC130AD733749B682 /* FFJLoadButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

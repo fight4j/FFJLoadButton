@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="FFJLoadButton_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +18,57 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DMG-hO-EMp" userLabel="SucceedBtn" customClass="FFJLoadButton" customModule="FFJLoadButton">
+                                <rect key="frame" x="156" y="64" width="289" height="51"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="6By-tn-JjY"/>
+                                    <constraint firstAttribute="width" constant="289" id="dgC-Oh-kuj"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="succeed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cyG-EB-Psg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwJ-rv-o90" userLabel="FailedBtn" customClass="FFJLoadButton" customModule="FFJLoadButton">
+                                <rect key="frame" x="156" y="168" width="289" height="51"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="eIE-uE-HVZ"/>
+                                    <constraint firstAttribute="width" constant="289" id="gih-Nd-ft7"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="failed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="d2Z-35-CE7"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vf7-qy-eYM">
+                                <rect key="frame" x="20" y="250" width="560" height="300"/>
+                                <color key="backgroundColor" red="0.7129622055" green="0.7129622055" blue="0.7129622055" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vf7-qy-eYM" firstAttribute="height" secondItem="kh9-bI-dsS" secondAttribute="height" multiplier="0.5" id="0eq-JZ-nON"/>
+                            <constraint firstItem="Vf7-qy-eYM" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="8C4-e5-4mY"/>
+                            <constraint firstItem="KwJ-rv-o90" firstAttribute="leading" secondItem="DMG-hO-EMp" secondAttribute="leading" id="Dfu-1b-1uL"/>
+                            <constraint firstItem="KwJ-rv-o90" firstAttribute="top" secondItem="DMG-hO-EMp" secondAttribute="bottom" constant="53" id="F7b-sh-9dE"/>
+                            <constraint firstItem="DMG-hO-EMp" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="JFt-dr-OWI"/>
+                            <constraint firstItem="DMG-hO-EMp" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="44" id="RUK-CB-tEG"/>
+                            <constraint firstItem="KwJ-rv-o90" firstAttribute="width" secondItem="DMG-hO-EMp" secondAttribute="width" id="T6i-Sp-Hd7"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Vf7-qy-eYM" secondAttribute="leading" id="iQ6-lk-vwO"/>
+                            <constraint firstItem="KwJ-rv-o90" firstAttribute="height" secondItem="DMG-hO-EMp" secondAttribute="height" id="kY7-vx-Xet"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Vf7-qy-eYM" secondAttribute="bottom" constant="50" id="mT4-Bp-Bhf"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="failedButton" destination="KwJ-rv-o90" id="0JZ-6q-CK4"/>
+                        <outlet property="imageView" destination="Vf7-qy-eYM" id="YJ7-6a-kiC"/>
+                        <outlet property="succeedButton" destination="DMG-hO-EMp" id="cSC-2u-OsA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="389" y="377"/>
         </scene>
     </scenes>
 </document>
