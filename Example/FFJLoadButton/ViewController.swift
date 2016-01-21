@@ -37,6 +37,7 @@ class ViewController: UIViewController {
                 if let _ = error {
                     self.imageView.image = nil
                     self.succeedButton.endLoad(false)
+                    return
                 }
                 self.imageView.image = UIImage.init(data: imageData!)
                 self.succeedButton.endLoad(true)
