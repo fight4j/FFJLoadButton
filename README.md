@@ -7,9 +7,8 @@
 
 FFJLoadButton is a simple subclass of UIButton written in Swift, which provides animations for loading.
 
-Examples
-![Succeed Example](Resources/succeed.gif) 
-![Failed Example](Resources/failed.gif)
+<img src="Resources/succeed.gif" width="280" height="497"/>
+<img src="Resources/failed.gif" width="280" height="497"/>
 
 ## Usage
 
