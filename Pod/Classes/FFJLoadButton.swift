@@ -46,7 +46,7 @@ public class FFJLoadButton: UIButton {
         }
     }
     
-    // TODO: - font, convenience init, title frame, public
+    // TODO: - font, convenience init, title frame, public, animation incomplete
     // MARK: - Life cycle
     public override init(frame: CGRect) {
         super.init(frame: frame)

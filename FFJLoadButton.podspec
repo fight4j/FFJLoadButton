@@ -17,17 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-A simple subclass of UIButton that provides animations for loading, including loading, load succeed, load fail.
+                        A simple subclass of UIButton that provides animations for loading, including loading, load succeed, load fail.
                        DESC
 
   s.homepage         = "https://github.com/fight4j/FFJLoadButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Vito" => "zhangchaonb@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/FFJLoadButton.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/fight4j/FFJLoadButton.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

@@ -5,13 +5,37 @@
 [![License](https://img.shields.io/cocoapods/l/FFJLoadButton.svg?style=flat)](http://cocoapods.org/pods/FFJLoadButton)
 [![Platform](https://img.shields.io/cocoapods/p/FFJLoadButton.svg?style=flat)](http://cocoapods.org/pods/FFJLoadButton)
 
+FFJloadButton is a simple subclass of UIButton written in Swift, which provides animations for loading.
+
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+FFJloadButton mainly offers 2 methods:
+```Swift
+startLoad()
+endLoad(_:)
+```
+Example:
+```Swift
+self.loadButton.startLoad()
 
-## Requirements
+let imageURL = NSURL.init(string: "https://fakeurl.com")
+NSURLSession.sharedSession().dataTaskWithURL(imageURL!) { (imageData, response, error) -> Void in
+    dispatch_async(dispatch_get_main_queue(), { () -> Void in
+        if let _ = error {
+            self.imageView.image = nil
+            self.loadButton.endLoad(false)
+            return
+        }
+        self.imageView.image = UIImage.init(data: imageData!)
+        self.loadButton.endLoad(true)
+    })
+}.resume()
+```
+Check demo for more details.
 
 ## Installation
+
+#### Cocoapods
 
 FFJLoadButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -20,9 +44,17 @@ it, simply add the following line to your Podfile:
 pod "FFJLoadButton"
 ```
 
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+#### Manually
+Simply drag FFJLoadButton.swift to your project
+
+## Requirements
+iOS 8.0+
+
 ## Author
 
-Vito, zhangchaonb@gmail.com
+zhangchaonb@gmail.com
 
 ## License
 
