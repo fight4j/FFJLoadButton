@@ -40,7 +40,7 @@ Check demo for more details.
 
 ## Installation
 
-#### Cocoapods
+#### CocoaPods
 
 FFJLoadButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
