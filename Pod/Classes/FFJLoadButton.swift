@@ -71,7 +71,7 @@ public class FFJLoadButton: UIButton {
             subLayer.contentsGravity = kCAGravityCenter
         }
         
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "resetCircleLoadAnimation", name: UIApplicationWillEnterForegroundNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(resetCircleLoadAnimation), name: UIApplicationWillEnterForegroundNotification, object: nil)
     }
     
     func createTitleLayer() -> CATextLayer {
