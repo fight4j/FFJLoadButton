@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     @IBAction func failed(sender: AnyObject) {
         self.failedButton.startLoad()
         
-        let urlconfig = NSURLSessionConfiguration.defaultSessionConfiguration()
+        let urlconfig = NSURLSessionConfiguration.ephemeralSessionConfiguration()
         urlconfig.timeoutIntervalForRequest = 5
         urlconfig.timeoutIntervalForResource = 5
         let imageURL = NSURL.init(string: "https://fakeurl.com")
